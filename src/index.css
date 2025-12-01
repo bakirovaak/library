@@ -1,0 +1,14 @@
+/*! @tailwind base; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+}
