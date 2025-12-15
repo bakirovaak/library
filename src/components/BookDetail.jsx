@@ -8,7 +8,7 @@ export default function BookDetail({ book, onBack }) {
 
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="min-h-screen relative overflow-hidden">
-      {/* Размытый фон — та же картинка */}
+      {}
       <div 
         className="absolute inset-0 bg-cover bg-center blur-2xl scale-110 -z-10"
         style={{ backgroundImage: `url('${coverUrl}')` }}
